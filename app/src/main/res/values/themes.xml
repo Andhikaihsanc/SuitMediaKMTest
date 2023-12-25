@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KMtest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.KMtest" parent="Base.Theme.KMtest" />
+    <style name="Theme.NoActionBar" parent="Base.Theme.KMtest">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+    <style name="groupStylewhite">
+        <item name="android:background">@drawable/rectangle_bg_white</item>
+    </style>
+    <style name="groupStyleblue">
+        <item name="android:background">@drawable/rectangle_bg_blue</item>
+    </style>
+<!--    <style name="txt2">-->
+<!--        <item name="android:textSize">@dimen/_18pxh</item>-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:fontFamily">@font/poppins</item>-->
+<!--        <item name="android:textFontWeight" tools:targetApi="p">500</item>-->
+<!--    </style>-->
+</resources>

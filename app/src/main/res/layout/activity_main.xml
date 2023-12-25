@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgkm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_person_add_alt_1_24"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="170dp">
+        </ImageView>
+        <LinearLayout
+            android:id="@+id/linearColumnlineone"
+            android:background="@drawable/rectangle_bg_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="35dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/lineLineOne"
+                android:layout_width="290dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="2.32dp"
+                android:background="@color/white"
+                android:textColor="@color/button1"
+                android:hint="Name"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/name"
+            android:background="@drawable/rectangle_bg_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="35dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/palindrome"
+                android:layout_width="290dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/white"
+                android:textColor="@color/button1"
+                android:hint="Palindrome"
+                android:inputType="text" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/check"
+            android:background="@drawable/rectangle_bg_blue"
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="35dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="CHECK"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/next"
+            android:background="@drawable/rectangle_bg_blue"
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="35dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="NEXT"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
